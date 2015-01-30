@@ -1,0 +1,4 @@
+http://localhost:port/cgi-bin/img.py  原始图像
+http://localhost:port/cgi-bin/img.py?s=big 放大两倍的图像
+http://localhost:port/cgi-bin/img.py?s=small 缩小的图像
+简单的演示一下cgi程序的运作流程
