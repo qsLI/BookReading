@@ -14,6 +14,7 @@ browser.visit(url)
 # Find and click the 'search' button
 btnEmail = browser.find_by_id('username')
 btnPasswd = browser.find_by_id('password')
+
 btnEmail.fill('')#用户名
 btnPasswd.fill('')#密码
 #print dir(browser)
@@ -24,6 +25,7 @@ btnSubmit.click()#登录
 #time.sleep(10)
 time.sleep(6)
 browser.visit("http://download.csdn.net/my/downloads")
+
 while browser.is_element_not_present_by_css(".pageliststy"):
     time.sleep(0.1)
 urls = [ url['href'] for url in  browser.find_link_by_text("立即评价，通过可返分")]
