@@ -12,8 +12,8 @@ browser.visit(url)
 # Find and click the 'search' button
 btnEmail = browser.find_by_id('username')
 btnPasswd = browser.find_by_id('password')
-btnEmail.fill('1063891223@qq.com')
-btnPasswd.fill('741015616')
+btnEmail.fill('')
+btnPasswd.fill('')
 #print dir(browser)
 # Interact with elements
 btnSubmit = browser.find_by_value("登 录")
