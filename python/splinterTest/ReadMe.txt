@@ -1,0 +1,2 @@
+要下载 splinter这个包
+下载chrome的驱动
